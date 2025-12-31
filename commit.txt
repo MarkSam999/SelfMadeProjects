@@ -1,1 +1,3 @@
-git commit -m "Created a 'dropshipper' project" 
+git commit -m "Created a counting form" -m "-For the project 'dropshipper' the first html-page, count.html, has an input form that asks which truck type, on which distance from starting point to destination, and what weight of your cargo would you like to transfer
+-The first css-file, prime.css, sets count.html more valid and comfortable layout
+-The first js-file, count.js, counts the total cost of a service based on the data typed on count.html and returns it in alert form" 
