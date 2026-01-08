@@ -1,3 +1,4 @@
-git commit -m "Created a counting form" -m "-For the project 'dropshipper' the first html-page, count.html, has an input form that asks which truck type, on which distance from starting point to destination, and what weight of your cargo would you like to transfer
--The first css-file, prime.css, sets count.html more valid and comfortable layout
--The first js-file, count.js, counts the total cost of a service based on the data typed on count.html and returns it in alert form" 
+git commit -m "Updated overall layout" -m "-Added a background image with a UHaul Truck
+-Slightly blurred this background image to create the visual effect of paying more attention to the content than to the background
+-In count.html, moved all content elements to the right, to make it look like it's nested in" 
+
