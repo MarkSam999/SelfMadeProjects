@@ -1,4 +1,4 @@
-git commit -m "Updated overall layout" -m "-Added a background image with a UHaul Truck
--Slightly blurred this background image to create the visual effect of paying more attention to the content than to the background
--In count.html, moved all content elements to the right, to make it look like it's nested in" 
+git commit -m "Created a home page" -m "- Created a home.html and added some content to this page
+- In count.html, added the link that redirects to home
+-Some of the css code was translated to style element in count.html, to ensure that the home page's display will work responsively, but the count.html will have the same layout" 
 

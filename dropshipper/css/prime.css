@@ -9,20 +9,27 @@ body {
 }
 
 #content {
-    width: 100%; height: 100%; display: flex; 
+    width: 100%; height: 100%;
     backdrop-filter: blur(8px);
-    justify-content: center; align-items: center;
 }
 
 form {
     box-shadow: 0 0 20px black;
-    text-align: center; background-color: rgba(0,0,0,0.35);
-    margin: 0 auto; padding: 10px;
-    width: 15%;
+    text-align: center; 
+    margin: 0 auto; 
+    width: 15%; padding: 10px;
     min-width: 300px;
 }
 
-fieldset {
+form, .container {
+    background-color: rgba(0,0,0,0.35);
+}
+
+.container {
+    padding: 0 10px; margin: 10px;
+}
+
+fieldset, .container {
     border: 2px solid white;
 }
 
@@ -40,4 +47,15 @@ button {
 
 .warning {
     color: orange;
+}
+
+.link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: cyan;
 }
