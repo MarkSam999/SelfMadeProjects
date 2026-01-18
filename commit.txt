@@ -1,4 +1,4 @@
-git commit -m "Created a home page" -m "- Created a home.html and added some content to this page
-- In count.html, added the link that redirects to home
--Some of the css code was translated to style element in count.html, to ensure that the home page's display will work responsively, but the count.html will have the same layout" 
-
+git commit -m "Added content to the home page" -m "-Added section with the links to pages where I will write the description about them soon
+-Added two separate css-files that give each page a specific layout and placed some of the rulesets from prime.css on them
+-Set the flex-wrap of the containers to wrap to make the content wrap in case of user's screen being too thin
+-Changed the height properties of the background and the content to ensure there is no empty space or no space without blur under the content" 

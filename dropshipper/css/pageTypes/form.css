@@ -1,0 +1,40 @@
+#content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+form {
+    box-shadow: 0 0 20px black;
+    text-align: center; 
+    margin: 0 auto; 
+    width: 15%; padding: 10px;
+    min-width: 300px;
+}
+
+label {
+    margin: 5px auto;
+}
+
+button {
+    margin: 10px auto;
+}
+
+.warning {
+    color: orange;
+}
+
+.link {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: cyan;
+}
+
+label, button {
+    display: block;
+}
