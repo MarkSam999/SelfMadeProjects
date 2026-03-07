@@ -14,10 +14,15 @@ body {
     backdrop-filter: blur(8px);
 }
 
-form, .container {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+form, section {
     background-color: rgba(0,0,0,0.35);
 }
 
-form, fieldset, .container {
+form, fieldset, section {
     border: 2px solid white;
 }

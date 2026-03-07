@@ -1,9 +1,10 @@
 // Constant values
-const tax = 1.1;
+const fuel_gal = 3;
 // Initial values
 let total = 0;
-let maxWeight = 0;
+let maxLoad = 0;
 let rent = 0;
+let mpg = 0;
 // Asked values
 let truckType = "";
 let distance = "";
@@ -16,26 +17,20 @@ function count(){
     weight = document.getElementById("weight").value;
 
     if(truckType == "" || distance == "" || weight == ""){
-        alert("Please, fill all of these fields!");
+        alert("Please, fill out all of these fields!");
     } else {
         if(truckType == "pickup"){
-            maxWeight = 1000;
-            rent = 20;
-        } else if(truckType == "minivan"){
-            maxWeight = 1500;
-            rent = 30;
+            maxLoad = 3500;
+            rent = 20; mpg = 20;
         } else if(truckType == "van"){
-            maxWeight = 4000;
+            maxLoad = 4000;
             rent = 50;
-        } else if(truckType == "semi-truck"){
-            maxWeight = 80000;
-            rent = 80;
         } else if(truckType == "truck"){
             maxWeight = 250000;
             rent = 100;
         };
 
-        total = rent + (Math.round(weight * distance * tax)) / 100;
+        total = rent + Math.round(distance * fuel_gal / mpg + (weight / 100) / 100);
         alert(total);
     };
 };

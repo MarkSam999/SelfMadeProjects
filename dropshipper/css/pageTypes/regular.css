@@ -5,30 +5,83 @@
 }
 
 .flexed {
-    display: flex;
+    display: flex; flex-wrap: wrap;
 }
 
 .truckTypes {
     width: 320px;
-    border: 2px solid green;
+    border: 2px solid white;
     padding: 5px;
+    transition: 0.5s;
+    margin: 0 10px 10px 10px;
 }
 
 .truckTypes > img {
     height: 180px; width: 310px;
 }
 
-.container > div {
-    transition: 0.5s;
-    margin: 0 10px 10px 10px;
-}
-
-.container > div:hover {
+.truckTypes:hover {
     text-shadow: 0 0 10px white;
     transition: 0.5s;
 }
 
-.container {
-    padding: 10px; margin: 10px; overflow-x: hidden;
-    flex-wrap: wrap;
+section {
+    padding: 10px; margin: 10px 100px; 
+    overflow-x: hidden;
+}
+
+.briefDiv {
+    border: 2px solid white;
+    float: right; margin: 10px;
+    width: 352px;
+}
+
+.briefDiv > h2 {
+    margin-left: 6px; line-height: 8px;
+}
+
+.briefText {
+    display: flex; flex-wrap: wrap;
+}
+
+.briefImage {
+    width: 352px; height: 198px;
+    background-size: 100% 100%;
+}
+
+.textImages {
+    height: 189px; width: 240px;
+    border: solid 2px white;
+    text-align: center; float: left;
+    margin: 10px;
+}
+
+li.moved {
+    position: relative;
+    transform:translateX(30px);
+}
+
+.textImages > img {
+    height: 135px; width: 240px;
+}
+
+.pickup {
+    background-image: url("../../media/images/nissanPickup.jpg");
+}
+
+.minivan {
+    background-image: url("../../media/images/jeepMinivan.jpg");
+}
+
+.van {
+    background-image: url("../../media/images/volkswagenVan.jpg");
+}
+
+.semi-truck {
+    background-image: url("../../media/images/semi-truck.jpg");
+}
+
+.line {
+    width: 100%;
+    border: 1px solid white;
 }
