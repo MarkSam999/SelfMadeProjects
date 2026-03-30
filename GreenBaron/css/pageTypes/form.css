@@ -25,12 +25,13 @@ button {
 }
 
 .link {
-    display: block;
-    margin: 10px 0;
+    display: block; margin: 10px 0;
+    transition: 0.5s;
 }
 
 .link:hover {
-    color: cyan;
+    text-shadow: 0 0 8px white, 0 0 16px white;
+    transition: 0.5s;
 }
 
 label, button {

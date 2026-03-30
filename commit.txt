@@ -1,12 +1,18 @@
-git commit -m "Described truck types & changed layout" -m "HTML: 
--Added 3 pages, where all of the available types of trucks are described
--Replaced divs with class 'container' by sections
--On each page, I've written the information about its mpg (miles per gallon), maximum weight it can lift, acceleration time, and rent
--Because the links to these pages didn't work, I've slightly changed the html of the home page
--Because of too much features being present, I distributed all of the features by sections, such as Costs & Requirements, Technical Features, and Cargo Features
+git commit -m "Rebranding" -m "General: 
+-Now the project is called 'Green Baron', referring to a famous German pilot in WW1, and the symbol referring to the British soldiers of 18th century
+-Deleted the link and web page to the page about trucks because as I found out, the word 'truck' is often used as a definition of any cargo car
+HTML:
+-Added the navigation panel and a few important links there
+-Deleted choice 'truck' from the selection in count.html
 CSS:
--CSS was changed to ensure that all of the rulesets set to the elements that like to these pages still apply
--Reduced the content's width to improve readability
-JavaScript:
--After finding out more about the technical features of different cargo cars, I added 2 new values, changed the values for the maximum load of each type of car and changed the formula of counting the total cost
--Deleted value tax because I found it useless on my imaginary service"
+-The font is now 'Times New Roman' and increased to 18px
+-Changed the background image to the image 18th century ships and reduced the blur
+-Changed the background color of all sections to fit the overall layout better
+-Changed the height of the background in order to avoid any empty spaces
+-Deleted the display property for the content selector in regular.css because as I found out, this property didn't change anything in the pages' layout
+JS:
+-According to the recent news, the fuel is now $4 per gallon
+-Changed the values to make it match to what is shown in pages describing cargo cars types
+-Changed the formula of counting the total price to ensure that there are 2 decimal places in the final answer, even if it's a whole number
+Media:
+-Distributed all images to the several folders"
