@@ -1,18 +1,7 @@
-git commit -m "Rebranding" -m "General: 
--Now the project is called 'Green Baron', referring to a famous German pilot in WW1, and the symbol referring to the British soldiers of 18th century
--Deleted the link and web page to the page about trucks because as I found out, the word 'truck' is often used as a definition of any cargo car
-HTML:
--Added the navigation panel and a few important links there
--Deleted choice 'truck' from the selection in count.html
+git commit -m "New homepage layout" -m "HTML:
+-Deleted an empty 58th line in the home.html
+-Created about.html and moved the 'Welcome to the website...' stuff to this page
 CSS:
--The font is now 'Times New Roman' and increased to 18px
--Changed the background image to the image 18th century ships and reduced the blur
--Changed the background color of all sections to fit the overall layout better
--Changed the height of the background in order to avoid any empty spaces
--Deleted the display property for the content selector in regular.css because as I found out, this property didn't change anything in the pages' layout
-JS:
--According to the recent news, the fuel is now $4 per gallon
--Changed the values to make it match to what is shown in pages describing cargo cars types
--Changed the formula of counting the total price to ensure that there are 2 decimal places in the final answer, even if it's a whole number
-Media:
--Distributed all images to the several folders"
+-Set the width of boxes linking to truck types definition to auto and made margin in 10 pixels for all sides. This way, the boxes look more grid-like and now there are no too large white spaces at the right (I noticed it once I opened this website on my laptop)
+-Aligned the text of these boxes at the center and made it slightly larger than the general font
+-The boxes now have box shadow too, along with the text shadow"

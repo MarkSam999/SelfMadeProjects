@@ -34,11 +34,12 @@ section {
 }
 
 .truckTypes {
-    width: 320px;
+    text-align: center; font-size: 25px;
+    width: auto;
     border: 2px solid white;
     padding: 5px;
     transition: 0.5s;
-    margin: 0 10px 10px 10px;
+    margin: 10px;
 }
 
 .truckTypes > img {
@@ -47,6 +48,7 @@ section {
 
 .truckTypes:hover {
     text-shadow: 0 0 8px white, 0 0 16px white;
+    box-shadow: 0 0 8px white;
     transition: 0.5s;
 }
 
