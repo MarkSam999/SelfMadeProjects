@@ -1,7 +1,2 @@
-git commit -m "New homepage layout" -m "HTML:
--Deleted an empty 58th line in the home.html
--Created about.html and moved the 'Welcome to the website...' stuff to this page
-CSS:
--Set the width of boxes linking to truck types definition to auto and made margin in 10 pixels for all sides. This way, the boxes look more grid-like and now there are no too large white spaces at the right (I noticed it once I opened this website on my laptop)
--Aligned the text of these boxes at the center and made it slightly larger than the general font
--The boxes now have box shadow too, along with the text shadow"
+git commit -m "Links not working fixed" -m "HTML:
+-In all HTML-pages in 'truckTypes' folder links at the navigation panel were not working. I added '../' to the href of the links to make it work just like on home.html an about.html"
