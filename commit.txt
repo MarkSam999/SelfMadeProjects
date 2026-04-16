@@ -1,5 +1,5 @@
-git commit -m "New project" -m "General:
--Created a new project called 'WikiPolis'
--Since I am now focused on WikiPolis, I have paused the development of Green Baron
-HTML & CSS:
--Created home.html and prime.css as the base files"
+git commit -m "Created urban style" -m "HTML:
+-Created navigation panel
+CSS:
+-Made the 4K background of a city
+-Set the text color to white and font to Franklin Gothic Medium"
