@@ -1,2 +1,5 @@
-git commit -m "Links not working fixed" -m "HTML:
--In all HTML-pages in 'truckTypes' folder links at the navigation panel were not working. I added '../' to the href of the links to make it work just like on home.html an about.html"
+git commit -m "New project" -m "General:
+-Created a new project called 'WikiPolis'
+-Since I am now focused on WikiPolis, I have paused the development of Green Baron
+HTML & CSS:
+-Created home.html and prime.css as the base files"
