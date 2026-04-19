@@ -1,5 +1,5 @@
-git commit -m "Created urban style" -m "HTML:
--Created navigation panel
+git commit -m "CityPolis: The first traces" -m "HTML:
+-Replaced the nav element by header
+-Filled the homepage with some basic content
 CSS:
--Made the 4K background of a city
--Set the text color to white and font to Franklin Gothic Medium"
+-Set position of the navigation panel & background image to fixed"
