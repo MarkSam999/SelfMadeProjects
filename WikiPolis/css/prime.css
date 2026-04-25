@@ -1,9 +1,10 @@
 body {
     background-image: url('../media/images/backgrounds/city_wallpaper.jpg');
-    background-size: 100vw 100vh; margin: -15px 0 0 0;
+    background-size: 100vw 100vh; backdrop-filter: blur(4px);
     background-attachment: fixed;
-    font-size: 15px; line-height: 20px;
+    font-size: 15px; line-height: 20px; 
     color: white; font-family: 'Franklin Gothic Medium';
+    min-height: 100vh; margin: -15px 0 0 0;
 }
 
 header {
@@ -14,24 +15,22 @@ header {
     justify-content: space-evenly;
 }
 
-footer {
-    font-size: 20px;
-    height: auto; padding: 50px 20px;
-    background-color: rgb(8, 8, 54);
-}
-
 main {
+    width: 100%; min-height: fit-content; height:auto;
     position: relative; top: 75px;
 }
 
-section {
-    height: auto; margin: 15px 240px;
-    border: 2px solid white; padding: 0 20px;
+footer {
+    box-sizing: border-box;
+    position: relative; top: 75px;
+    width: 100%; margin-bottom: 0;
+    font-size: 20px; padding: 30px 15px;
+    background-color: rgb(8, 8, 54);
 }
 
-#vacuum {
-    min-height: 0; height: calc(100vh - 310px);
-    border: none;
+section {
+    height: auto; margin: 15px 15%;
+    background-color: rgba(0,0,0,0.5); padding: 5px 20px;
 }
 
 a {

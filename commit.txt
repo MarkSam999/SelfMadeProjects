@@ -1,5 +1,6 @@
-git commit -m "CityPolis: The first traces" -m "HTML:
--Replaced the nav element by header
--Filled the homepage with some basic content
+git commit -m "WikiPolis: Updated layout" -m "HTML:
+-Changed the footer text
 CSS:
--Set position of the navigation panel & background image to fixed"
+-Deleted border for sections and added transparent background color instead
+-Set blur effect on background image. The white text is now easier to see
+-Made footer thinner"
