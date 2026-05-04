@@ -1,6 +1,4 @@
-git commit -m "WikiPolis: Updated layout" -m "HTML:
--Changed the footer text
+git commit -m "WikiPolis: First article" -m "HTML:
+-New page about New York City
 CSS:
--Deleted border for sections and added transparent background color instead
--Set blur effect on background image. The white text is now easier to see
--Made footer thinner"
+-Fixed header on the top"

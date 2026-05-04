@@ -1,0 +1,13 @@
+.art_image {
+    text-align: center;
+}
+
+.art_image > img {
+    min-width: 300px;
+    width: 40%;
+    max-width: 500px;
+}
+
+figcaption {
+    margin: 0 20%;
+}
