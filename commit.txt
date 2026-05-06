@@ -1,4 +1,4 @@
-git commit -m "WikiPolis: First article" -m "HTML:
--New page about New York City
+git commit -m "WikiPolis: Added about.html" -m "HTML:
+-Added about.html with all information about WikiPolis
 CSS:
--Fixed header on the top"
+-Made lists' text usual because it seemes too large when it is near h2 text"

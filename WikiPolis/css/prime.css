@@ -53,10 +53,6 @@ header > a:hover {
     transition: 0.4s;
 }
 
-ul {
-    font-size: 20px;
-}
-
 .city_link {
     
     width: fit-content;
