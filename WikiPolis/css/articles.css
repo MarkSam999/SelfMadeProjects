@@ -1,10 +1,28 @@
+.art_block {
+    display: block;
+}
+
+.art_block::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .art_image {
     text-align: center;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 .art_image > img {
     min-width: 300px;
-    width: 40%;
+    width: 90%;
     max-width: 500px;
 }
 

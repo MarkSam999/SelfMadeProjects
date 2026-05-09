@@ -1,4 +1,5 @@
-git commit -m "WikiPolis: JS " -m "HTML:
--Placed script elements at the bottom in order of the JS-code to work
-JavaScript:
--Created header.js. By creating elements linking to the main pages through for-loop, these elements take less lines in all of the html-codes"
+git commit -m "New images' float" -m "HTML:
+-Created .art-block elements
+-Placed images on top of the text
+CSS:
+-Created new selectors to avoid this article page from being messy"
