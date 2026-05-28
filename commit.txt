@@ -1,5 +1,10 @@
-git commit -m "New images' float" -m "HTML:
--Created .art-block elements
--Placed images on top of the text
+git commit -m "WikiPolis: Updated article" -m "HTML:
+-Combined the city's name and its brief description into one section
+-Added navigation panel due to the page being very long
+-Changed the text of the 'population' paragraph
+-Added 4 more features about New York, such as geography, climate, wages & prices, and transportation
+-Added h3's that name the smaller details
 CSS:
--Created new selectors to avoid this article page from being messy"
+-Labeled all of the selectors in order to make navigation throughout css-files easier
+-Increased the font size of all h's in order to make the visual hierarchy clearer
+-Made images smaller to give space to the text"

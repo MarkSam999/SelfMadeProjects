@@ -1,3 +1,4 @@
+/* Main elements */
 body {
     font-size: 15px; line-height: 20px; background-color: rgb(15, 30, 99);
     color: white; font-family: 'Franklin Gothic Medium';
@@ -26,6 +27,11 @@ main {
     position: relative; top: 75px;
 }
 
+section {
+    height: auto; margin: 15px 15%;
+    background-color: rgba(0,0,0,0.5); padding: 5px 20px;
+}
+
 footer {
     box-sizing: border-box;
     position: relative; top: 75px;
@@ -34,10 +40,21 @@ footer {
     background-color: rgb(8, 8, 54);
 }
 
-section {
-    height: auto; margin: 15px 15%;
-    background-color: rgba(0,0,0,0.5); padding: 5px 20px;
+/* Text elements */
+
+h1 {
+    font-size: 40px;
 }
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/* Links */
 
 a {
     text-decoration: none; color: white;
@@ -53,13 +70,12 @@ header > a:hover {
     transition: 0.4s;
 }
 
-.city_link {
-    
+.city_link, .nav_link {
     width: fit-content;
     transition: 0.4s;
 }
 
-.city_link:hover {
+.city_link:hover, .nav_link:hover {
     transform: translateX(4px);
     transition: 0.4s;
 }
