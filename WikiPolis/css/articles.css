@@ -50,3 +50,23 @@ th, td {
 figcaption {
     margin: 0 20%;
 }
+
+@media screen and (max-width: 640px) {
+    /* Image types */
+    .small {
+        min-width: 80px;
+        width: 70%;
+        max-width: 150px;
+    }
+
+    .medium {
+        min-width: 100px;
+        width: 90%;
+        max-width: 180px;
+    }
+    /* Other */
+    figcaption {
+        margin: 0;
+        text-wrap: wrap;
+    }
+}

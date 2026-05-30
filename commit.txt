@@ -1,10 +1,2 @@
-git commit -m "WikiPolis: Updated article" -m "HTML:
--Combined the city's name and its brief description into one section
--Added navigation panel due to the page being very long
--Changed the text of the 'population' paragraph
--Added 4 more features about New York, such as geography, climate, wages & prices, and transportation
--Added h3's that name the smaller details
-CSS:
--Labeled all of the selectors in order to make navigation throughout css-files easier
--Increased the font size of all h's in order to make the visual hierarchy clearer
--Made images smaller to give space to the text"
+git commit -m "WikiPolis: Responsive layout" -m "CSS:
+-Added 2 media queries to make some of the css-properties, primarily font sizes, change based on the screen's width"

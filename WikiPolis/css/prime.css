@@ -1,6 +1,6 @@
 /* Main elements */
 body {
-    font-size: 15px; line-height: 20px; background-color: rgb(15, 30, 99);
+    background-color: rgb(15, 30, 99);
     color: white; font-family: 'Franklin Gothic Medium';
     min-height: 100vh; margin: -15px 0 0 0;
 }
@@ -36,22 +36,30 @@ footer {
     box-sizing: border-box;
     position: relative; top: 75px;
     width: 100%; margin-bottom: 0;
-    font-size: 20px; padding: 30px 15px;
+    padding: 30px 15px;
     background-color: rgb(8, 8, 54);
 }
 
 /* Text elements */
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
+}
+
+header > a {
+    font-size: 35px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
+}
+
+* {
+    font-size: 18px; line-height: 21px; 
 }
 
 /* Links */
@@ -59,10 +67,6 @@ h3 {
 a {
     text-decoration: none; color: white;
     transition: 0.4s; 
-}
-
-header > a {
-    font-size: 30px;
 }
 
 header > a:hover {
@@ -78,4 +82,31 @@ header > a:hover {
 .city_link:hover, .nav_link:hover {
     transform: translateX(4px);
     transition: 0.4s;
+}
+
+@media screen and (max-width: 640px) {
+    /* Main elements */
+    section {
+        margin: 10px 10%; padding: 5px 15px;
+    }
+    /* Text elements */
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    header > a {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    * {
+        font-size: 14px; line-height: 16px; 
+    }
 }
