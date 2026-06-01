@@ -1,2 +1,4 @@
-git commit -m "WikiPolis: Responsive layout" -m "CSS:
--Added 2 media queries to make some of the css-properties, primarily font sizes, change based on the screen's width"
+git commit -m "WikiPolis: New home page" -m "CSS:
+-Added images for the links to the cities
+-Changed the structure of the cities' section and made the links wrap
+-Added new link b/c I will tell about the new city soon"
