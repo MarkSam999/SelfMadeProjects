@@ -1,4 +1,2 @@
 # SelfMadeProjects
-This repository was created to demonstate the web-development skills of me, self-taught student Mark Samoilov who is willing to get a front-end developer job after school.
-
-All projects are created manually to ensure the proper development of my skills in web development
+This repository was created for evaluation purposes by Mark Samoilov. All projects were created manually, without the usage of AI. Currently, in 2026, I am in 12th grade, so I am open for the internships.
