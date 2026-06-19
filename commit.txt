@@ -1,4 +1,5 @@
-git commit -m "WikiPolis: New home page" -m "CSS:
--Added images for the links to the cities
--Changed the structure of the cities' section and made the links wrap
--Added new link b/c I will tell about the new city soon"
+git commit -m "WikiPolis: Miami page" -m "HTML:
+-Updated footer section since there's June now
+-Rounded temperatures in New York page
+CSS:
+-Added text shadow for the text links"
