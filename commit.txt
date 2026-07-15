@@ -1,5 +1,6 @@
-git commit -m "WikiPolis: Miami page" -m "HTML:
--Updated footer section since there's June now
--Rounded temperatures in New York page
+git commit -m "WikiPolis: New article section - history" -m "HTML:
+-Added a new section where I wrote history of New York City
+-Added id for the first section to make the navigation throughout html-codes easier
+-Added target='_blank' to external links to make sure that the user won't lose the page he/she came from
 CSS:
--Added text shadow for the text links"
+-Made some of the images float multiple chapters"

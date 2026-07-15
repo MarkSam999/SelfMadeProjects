@@ -9,6 +9,10 @@
     clear: both;
 }
 
+.no-gap::after {
+    display: none;
+}
+
 .art_image {
     text-align: center;
     margin: 15px;
