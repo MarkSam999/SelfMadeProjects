@@ -10,7 +10,7 @@
 }
 
 .no-gap::after {
-    display: none;
+    display: none !important;
 }
 
 .art_image {

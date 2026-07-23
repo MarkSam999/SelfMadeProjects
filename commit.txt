@@ -1,6 +1,5 @@
-git commit -m "WikiPolis: New article section - history" -m "HTML:
--Added a new section where I wrote history of New York City
--Added id for the first section to make the navigation throughout html-codes easier
--Added target='_blank' to external links to make sure that the user won't lose the page he/she came from
+git commit -m "WikiPolis: Miami history" -m "HTML:
+-Wrote history about Miami
+-Deleted 1 empty line in new_york.html
 CSS:
--Made some of the images float multiple chapters"
+-Wrote !important in .no-gap::after property to fix the bug with the chapters that should not have gaps after them"
