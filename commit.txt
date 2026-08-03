@@ -1,5 +1,21 @@
-git commit -m "WikiPolis: Miami history" -m "HTML:
--Wrote history about Miami
--Deleted 1 empty line in new_york.html
-CSS:
--Wrote !important in .no-gap::after property to fix the bug with the chapters that should not have gaps after them"
+git commit -m "WikiPolis: Rebranding" -m "HTML:
+    -Updated:
+        -Greeting message in homepage
+        -Navigation's content
+        -Footer's content
+CSS & JS:
+    -Created:
+        -Logo for the website using Canva
+        -2 custom properties: theme color and transition
+        -Sidebar
+    -Made links on header, on city's links, on articles, and navigation glow with white color when hovered
+    -Changed:
+        -Website's font to a one that is web-safe and looks like more futuristic - Century Gothic
+        -Background to a cartoon night city
+        -Color theme from navy to cyan
+        -Header's background color to a gradient
+        -Navigation section's location
+        -Scale effect for links to the cities
+    -Increased:
+        -Background's blur to make it less distracting during reading
+        -Vertical margin of the sections"

@@ -1,14 +1,19 @@
+:root {
+    --theme-color: rgb(48, 110, 139);
+    --gen-transition: 0.6s;
+}
+
 /* Main elements */
 body {
-    background-color: rgb(15, 30, 99);
-    color: white; font-family: 'Franklin Gothic Medium';
+    background-color: var(--theme-color);
+    color: white; font-family: 'Century Gothic';
     min-height: 100vh; margin: -15px 0 0 0;
 }
 
 #background {
     width: 100vw; height: 100vh; position: fixed;
-    z-index: 0; filter: blur(4px); 
-    background-image: url('../media/images/backgrounds/city_wallpaper.jpg');
+    z-index: 0; filter: blur(8px); 
+    background-image: url('../media/images/backgrounds/cartoon_night_city_wallpaper.jpg');
     background-size: 100vw 100vh;
     background-attachment: fixed;
     
@@ -16,28 +21,57 @@ body {
 
 header {
     position: fixed; z-index: 10;
-    width: 100%; height: 65px; 
-    background-color: rgb(15, 30, 99);
+    width: 100%; height: 65px; top: 0;
+    background-image: linear-gradient(
+        black,
+        var(--theme-color)
+    );
     display: flex; align-items: center;
     justify-content: space-evenly;
 }
 
 main {
-    width: 100%; min-height: fit-content; height:auto;
-    position: relative; top: 75px;
+    width: 100%; min-height: fit-content; height: auto;
+    display: flex; position: relative; top: 40px;
+}
+
+#single-bar {
+    width: calc(100% - 80px);
+    display: block; top: 80px;
+    margin: 40px;
+}
+
+.sidebar {
+    width: 20%; margin: 40px;
+}
+
+#sidebar-visual {
+    position: fixed;
+}
+
+#sidebar-phantom {
+    opacity: 0;
+}
+
+#main-content {
+    width: 80%; margin: 40px;
 }
 
 section {
-    height: auto; margin: 15px 15%;
+    height: auto; margin: 40px 0;
     background-color: rgba(0,0,0,0.5); padding: 5px 20px;
 }
 
 footer {
     box-sizing: border-box;
-    position: relative; top: 75px;
+    position: relative; top: 80px;
     width: 100%; margin-bottom: 0;
     padding: 30px 15px;
-    background-color: rgb(8, 8, 54);
+    background-color: var(--theme-color);
+}
+
+#article_footer {
+    top: 0px !important;
 }
 
 /* Text elements */
@@ -48,10 +82,6 @@ h1 {
 
 h2 {
     font-size: 40px;
-}
-
-header > a {
-    font-size: 35px;
 }
 
 h3 {
@@ -66,12 +96,29 @@ h3 {
 
 a {
     text-decoration: none; color: white;
-    transition: 0.4s; 
+    transition: var(--gen-transition); 
+}
+
+header > a {
+    font-size: 35px;
 }
 
 header > a:hover {
-    transform: translateY(-3.5px);
-    transition: 0.4s;
+    transform: translateY(-3px);
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+#home_link {
+    height: 100%;
+    transition: var(--gen-transition);
+}
+
+#home_link:hover {
+    transform: scaleX(1.15);
+}
+
+header > a:hover, #home_link:hover {
+    transition: var(--gen-transition);
 }
 
 #cities {
@@ -82,41 +129,55 @@ header > a:hover {
 .city_link {
     width: 250px;
     margin: 15px;
-    transition: 0.4s;
+    transition: var(--gen-transition);
 }
 
 .city_link:hover {
-    transform: scale(1.02);
-    transition: 0.4s;
+    transform: scale(1.04);
+    text-shadow: 
+        0 0 4px white,
+        0 0 8px white,
+        0 0 12px white;
+    transition: var(--gen-transition);
 }
 
 .nav_link {
     width: fit-content;
-    transition: 0.4s;
+    transition: var(--gen-transition);
 }
 
 .nav_link:hover {
     transform: translateX(4px);
-    transition: 0.4s;
-}
-
-.text_link {
-    transition: 0.5s;
+    transition: var(--gen-transition);
     text-shadow: 
+        0 0 4px white,
         0 0 8px white,
         0 0 12px white;
 }
 
-.text_link:hover {
-    transition: 0.5s;
+.text_link {
+    transition: var(--gen-transition);
     text-shadow: 
-        0 0 8px rgb(57, 57, 255),
-        0 0 12px rgb(57, 57, 255);
+        0 0 6px white,
+        0 0 12px white;
+}
+
+.text_link:hover {
+    transition: var(--gen-transition);
+    text-shadow: 
+        0 0 4px white,
+        0 0 8px white,
+        0 0 12px white,
+        0 0 16px white;
 }
 
 /* Image types */
 .city_link > a > div > img {
     width: 100%; height: 160px;
+}
+
+#home_link > a > div > img {
+    height: 65px;
 }
 
 @media screen and (max-width: 640px) {
