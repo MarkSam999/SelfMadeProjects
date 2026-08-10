@@ -1,0 +1,76 @@
+a {
+    text-decoration: none; color: white;
+    transition: var(--gen-transition); 
+}
+
+header > a {
+    font-size: 35px;
+}
+
+header > a:hover {
+    transform: translateY(-3px);
+    text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+#home_link {
+    height: 100%;
+    transition: var(--gen-transition);
+}
+
+#home_link:hover {
+    transform: scaleX(1.15);
+}
+
+header > a:hover, #home_link:hover {
+    transition: var(--gen-transition);
+}
+
+#cities {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city_link {
+    width: 250px;
+    margin: 15px;
+    transition: var(--gen-transition);
+}
+
+.city_link:hover {
+    transform: scale(1.04);
+    text-shadow: 
+        0 0 4px white,
+        0 0 8px white,
+        0 0 12px white;
+    transition: var(--gen-transition);
+}
+
+.nav_link {
+    width: fit-content;
+    transition: var(--gen-transition);
+}
+
+.nav_link:hover {
+    transform: translateX(4px);
+    transition: var(--gen-transition);
+    text-shadow: 
+        0 0 4px white,
+        0 0 8px white,
+        0 0 12px white;
+}
+
+.text_link {
+    transition: var(--gen-transition);
+    text-shadow: 
+        0 0 6px white,
+        0 0 12px white;
+}
+
+.text_link:hover {
+    transition: var(--gen-transition);
+    text-shadow: 
+        0 0 4px white,
+        0 0 8px white,
+        0 0 12px white,
+        0 0 16px white;
+}

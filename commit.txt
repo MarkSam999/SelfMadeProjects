@@ -1,21 +1,13 @@
-git commit -m "WikiPolis: Rebranding" -m "HTML:
-    -Updated:
-        -Greeting message in homepage
-        -Navigation's content
-        -Footer's content
-CSS & JS:
-    -Created:
-        -Logo for the website using Canva
-        -2 custom properties: theme color and transition
-        -Sidebar
-    -Made links on header, on city's links, on articles, and navigation glow with white color when hovered
-    -Changed:
-        -Website's font to a one that is web-safe and looks like more futuristic - Century Gothic
-        -Background to a cartoon night city
-        -Color theme from navy to cyan
-        -Header's background color to a gradient
-        -Navigation section's location
-        -Scale effect for links to the cities
-    -Increased:
-        -Background's blur to make it less distracting during reading
-        -Vertical margin of the sections"
+git commit -m "WikiPolis: Code optimization" -m "HTML:
+    -Created 2 metas that help the pages find the files they use and change content and styles based on their depth and type
+    -Deleted code in miami.html that is not supposed to be because it links to chapters that do not exist
+CSS: 
+    -Divided prime.css into a few smaller stylesheets
+        -Note: adapter.css has @media selectors that make a responsive design
+    -Changed the structure of articles.css's and prime.css's selectors
+    -Transferred some selectors used in articles' pages only from prime.css to articles.css
+    -Changed navigation bar's bottom padding and its content's margin for better outlook (I was supposed to do that in the previous commit)
+JS:
+    -Created template.js
+    -Transferred header.js's code and footer's content to template.js
+    -Wrote code that auto-generates content for header and navigation bars"

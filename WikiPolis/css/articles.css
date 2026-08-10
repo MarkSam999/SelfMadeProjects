@@ -1,4 +1,30 @@
-/* Article elements */
+/* Content sections */
+.sidebar {
+    width: 20%; margin: 40px;
+}
+
+#sidebar-visual {
+    position: fixed;
+}
+
+#sidebar-phantom {
+    opacity: 0;
+}
+
+#main-content {
+    width: 80%; margin: 40px;
+}
+
+/* Navigation bar */
+#nav {
+    padding-bottom: 25px;
+}
+
+#nav nav ul {
+    margin: 0;
+}
+
+/* Article blocks */
 .art_block {
     display: block;
 }
@@ -13,6 +39,7 @@
     display: none !important;
 }
 
+/* Images */
 .art_image {
     text-align: center;
     margin: 15px;
@@ -22,7 +49,6 @@
     width: 100%;
 }
 
-/* Image types */
 .left {
     float: left;
 }
@@ -43,34 +69,13 @@
     max-width: 350px;
 }
 
+figcaption {
+    margin: 0 20%;
+}
+
 /* Tables */
 th, td {
     padding: 5px 10px;
     text-align: center;
     border: 2px solid white;
-}
-
-/* Other */
-figcaption {
-    margin: 0 20%;
-}
-
-@media screen and (max-width: 640px) {
-    /* Image types */
-    .small {
-        min-width: 80px;
-        width: 70%;
-        max-width: 150px;
-    }
-
-    .medium {
-        min-width: 100px;
-        width: 90%;
-        max-width: 180px;
-    }
-    /* Other */
-    figcaption {
-        margin: 0;
-        text-wrap: wrap;
-    }
 }

@@ -1,0 +1,7 @@
+.city_link > a > div > img {
+    width: 100%; height: 160px;
+}
+
+#home_link > a > div > img {
+    height: 65px;
+}
